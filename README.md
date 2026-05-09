@@ -1,4 +1,4 @@
-```
- # .env
-```
+```python
+# .env
 DISCORD_TOKEN=<INSERT TOKEN>
+```
