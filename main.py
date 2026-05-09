@@ -29,7 +29,7 @@ async def on_message(message):
 
     content = message.content.strip()
 
-    if content.lower().startswith("Ben") or bot.user.mentioned_in(message):
+    if content.lower().startswith("ben") or bot.user.mentioned_in(message):
         await message.channel.send(random.choice(RESPONSES))
 
     await bot.process_commands(message)
