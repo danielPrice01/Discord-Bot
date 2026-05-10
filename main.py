@@ -15,9 +15,8 @@ logging.getLogger('discord').setLevel(logging.WARNING)
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
+intents.presences = True
 intents.voice_states = True
-
-bot = commands.Bot(command_prefix='!', intents=intents)
 
 RESPONSES = ["Yes", "Ho ho ho", "No", "Ben", "Ugh"]
 AUDIO_RESPONSES = ["Yes", "Ho ho ho", "No", "Ben", "Ugh", "Burp", "Taunt"]
@@ -72,10 +71,11 @@ async def on_voice_state_update(member, before, after):
             bot.loop.create_task(play_random_loop(vc))
 
         # Wait for for any current audio to finish
-        while vc.is_playing():
-            await asyncio.sleep(0.3)
-
-        play_audio(vc, "Ben")
+        if not vc.is_playing():
+            # if person joining is on mobile then delay the audio
+            if member.mobile_status != discord.Status.offline:
+                await asyncio.sleep(1.5)
+            play_audio(vc, "Ben")
     
     # someone left BEN_CHANNEL_NAME channel
     if before.channel and before.channel.name == BEN_CHANNEL_NAME:
