@@ -1,2 +1,31 @@
-[2026-05-09 03:26:21] [INFO    ] discord.client: logging in using static token
-[2026-05-09 03:26:22] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 3d68053e81454339de73c0899d284ce5).
+[2026-05-10 00:35:46] [INFO    ] discord.client: logging in using static token
+[2026-05-10 00:35:47] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 63f6c82d97f2010877baba4e3ce971e8).
+[2026-05-10 00:35:49] [INFO    ] discord.voice_state: Connecting to voice...
+[2026-05-10 00:35:49] [INFO    ] discord.voice_state: Starting voice handshake... (connection attempt 1)
+[2026-05-10 00:35:49] [INFO    ] discord.voice_state: Voice handshake complete. Endpoint found: c-iad07-37be0b6c.discord.media:8443
+[2026-05-10 00:35:49] [INFO    ] discord.voice_state: Voice connection complete.
+[2026-05-10 00:36:02] [INFO    ] discord.voice_state: The voice handshake is being terminated for Channel ID 1502881255694274640 (Guild ID 1502564055812931626)
+[2026-05-10 00:36:03] [INFO    ] discord.voice_state: Connecting to voice...
+[2026-05-10 00:36:03] [INFO    ] discord.voice_state: Starting voice handshake... (connection attempt 1)
+[2026-05-10 00:36:03] [INFO    ] discord.voice_state: Voice handshake complete. Endpoint found: c-iad15-7765e1c0.discord.media:2083
+[2026-05-10 00:36:03] [INFO    ] discord.voice_state: Voice connection complete.
+[2026-05-10 00:36:04] [INFO    ] discord.player: ffmpeg process 20694 successfully terminated with return code of 0.
+[2026-05-10 00:36:07] [INFO    ] discord.voice_state: The voice handshake is being terminated for Channel ID 1502881255694274640 (Guild ID 1502564055812931626)
+[2026-05-10 00:36:07] [INFO    ] discord.voice_state: Connecting to voice...
+[2026-05-10 00:36:07] [INFO    ] discord.voice_state: Starting voice handshake... (connection attempt 1)
+[2026-05-10 00:36:07] [INFO    ] discord.voice_state: Voice handshake complete. Endpoint found: c-iad08-c051d170.discord.media:2083
+[2026-05-10 00:36:07] [INFO    ] discord.voice_state: Voice connection complete.
+[2026-05-10 00:36:08] [INFO    ] discord.player: ffmpeg process 20696 successfully terminated with return code of 0.
+[2026-05-10 00:36:08] [INFO    ] discord.voice_state: The voice handshake is being terminated for Channel ID 1502881255694274640 (Guild ID 1502564055812931626)
+[2026-05-10 00:36:09] [INFO    ] discord.voice_state: Connecting to voice...
+[2026-05-10 00:36:09] [INFO    ] discord.voice_state: Starting voice handshake... (connection attempt 1)
+[2026-05-10 00:36:09] [INFO    ] discord.voice_state: Voice handshake complete. Endpoint found: c-iad14-68104107.discord.media:443
+[2026-05-10 00:36:09] [INFO    ] discord.voice_state: Voice connection complete.
+[2026-05-10 00:36:10] [INFO    ] discord.player: ffmpeg process 20697 successfully terminated with return code of 0.
+[2026-05-10 00:36:10] [INFO    ] discord.voice_state: The voice handshake is being terminated for Channel ID 1502881255694274640 (Guild ID 1502564055812931626)
+[2026-05-10 00:36:11] [INFO    ] discord.voice_state: Connecting to voice...
+[2026-05-10 00:36:11] [INFO    ] discord.voice_state: Starting voice handshake... (connection attempt 1)
+[2026-05-10 00:36:11] [INFO    ] discord.voice_state: Voice handshake complete. Endpoint found: c-iad10-98b96774.discord.media:2096
+[2026-05-10 00:36:11] [INFO    ] discord.voice_state: Voice connection complete.
+[2026-05-10 00:36:12] [INFO    ] discord.player: ffmpeg process 20698 successfully terminated with return code of 0.
+[2026-05-10 00:36:21] [INFO    ] discord.voice_state: The voice handshake is being terminated for Channel ID 1502881255694274640 (Guild ID 1502564055812931626)
